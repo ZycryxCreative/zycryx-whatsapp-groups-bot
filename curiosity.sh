@@ -21,7 +21,7 @@ else
 if pkg install git -y 2>&1 >/dev/null | grep -E -i -q '(command not found|unable to locate package|E: Could not get lock|debconf: delaying package configuration|Package not found|Failed to fetch|404 Not Found|Hash sum mismatch|503 Service Unavailable|504 Gateway Timeout|408 Request Timeout|Connection timed out|Temporary failure resolving)'; then
 error=$(pkg install git -y 2>&1 >/dev/null)
 echo -e "\033[0;31m⚠️ Error: $error\033[0m" 
-echo -e "\033[0;34m⚠️ No se pudo instalar Git. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
+echo -e "\033[0;34m⚠️ No se pudo instalar Git. Verifique su conexión a internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
 echo -e "\033[01;33m$COMANDOS\033[0m"
 exit 1
 else
@@ -136,11 +136,11 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/ZycryxCreative/zycryx-whatsapp-groups-bot.git
+git clone https://github.com/Azami19/CuriosityBot-MD1.git
 echo -e "\033[01;32m\033[01m✅ La clonación se ha descargado e instalado correctamente.\n\033[0m"
 
 echo -e "\033[01;32m\033[01m🟢 Cambiando al directorio del repositorio!!\n\033[0m" 
-cd zycryx-whatsapp-groups-bot
+cd CuriosityBot-MD1
 
 echo -e "\e[36m
 █░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▄█ ▄▀█ █▀█ █▄░█
