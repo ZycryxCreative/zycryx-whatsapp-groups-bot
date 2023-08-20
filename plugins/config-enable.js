@@ -48,6 +48,17 @@ throw false
 }
 chat.detect = isEnable
 break
+case 'detect2':
+if (!m.isGroup) {
+      if (!isOwner) {
+  global.dfail('group', m, conn);
+    throw false;
+    }} else if (!isAdmin) {
+  global.dfail('admin', m, conn);
+   throw false;
+ }
+chat.detect2 = isEnable;
+  break;
 case 'delete':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
@@ -234,54 +245,55 @@ throw false
 global.opts['swonly'] = isEnable
 break
 default:
-if (!/[01]/.test(command)) return await conn.reply(m.chat, `╭┄┄≪ *「 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕-𝑴𝑫 」* ≫┄┄╮
+if (!/[01]/.test(command)) return await conn.reply(m.chat, `╔───𖥻 LISTA 𖥻───╗
 │⚌⚌⚌⚌⚌⚌⚌⚌⚌
-│ *✨ 🅗🅞🅛🅐*
+│ H O L A 😸❤️
 │⚌⚌⚌⚌⚌⚌⚌⚌⚌
-╰┄┄≪ *「 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕-𝑴𝑫 」* ≫┄┄╯
-
-*LISTA DE OPCIONES* 📄
-
-➵ _${usedPrefix}enable *welcome*_
-➵ _${usedPrefix}disable *welcome*_
-➵ _${usedPrefix}enable *public*_
-➵ _${usedPrefix}disable *public*_
-➵ _${usedPrefix}enable *antilink*_
-➵ _${usedPrefix}disable *antilink*_
-➵ _${usedPrefix}enable *antilink2*_
-➵ _${usedPrefix}disable *antilink2*_
-➵ _${usedPrefix}enable *antifake*_
-➵ _${usedPrefix}disable *antifake*_
-➵ _${usedPrefix}enable *antitraba*_
-➵ _${usedPrefix}disable *antitraba*_
-➵ _${usedPrefix}enable *antitoxic*_
-➵ _${usedPrefix}disable *antitoxic*_
-➵ _${usedPrefix}enable *autolevelup*_
-➵ _${usedPrefix}disable *autolevelup*_
-➵ _${usedPrefix}enable *nsfw*_
-➵ _${usedPrefix}disable *nsfw*_
-➵ _${usedPrefix}enable *simi*_
-➵ _${usedPrefix}disable *simi*_
-➵ _${usedPrefix}enable *detect*_
-➵ _${usedPrefix}disable *detect*_
-➵ _${usedPrefix}enable *restrict*_
-➵ _${usedPrefix}disable *restrict*_
-➵ _${usedPrefix}enable *pconly*_
-➵ _${usedPrefix}disable *pconly*_
-➵ _${usedPrefix}enable *gconly*_
-➵ _${usedPrefix}disable *gconly*_
-➵ _${usedPrefix}enable *autoread*_
-➵ _${usedPrefix}disable *autoread*_
-➵ _${usedPrefix}enable *autoread*_
-➵ _${usedPrefix}disable *modoadmin*_
-➵ _${usedPrefix}enable *modoadmin*_
-➵ _${usedPrefix}disable *modejadibot*_
-`, fkontak, m)
+│
+│ *LISTA DE OPCIONES* 📄
+│
+│➵ _${usedPrefix}enable *welcome*_
+│➵ _${usedPrefix}disable *welcome*_
+│➵ _${usedPrefix}enable *public*_
+│➵ _${usedPrefix}disable *public*_
+│➵ _${usedPrefix}enable *antilink*_
+│➵ _${usedPrefix}disable *antilink*_
+│➵ _${usedPrefix}enable *antilink2*_
+│➵ _${usedPrefix}disable *antilink2*_
+│➵ _${usedPrefix}enable *antifake*_
+│➵ _${usedPrefix}disable *antifake*_
+│➵ _${usedPrefix}enable *antitraba*_
+│➵ _${usedPrefix}disable *antitraba*_
+│➵ _${usedPrefix}enable *antitoxic*_
+│➵ _${usedPrefix}disable *antitoxic*_
+│➵ _${usedPrefix}enable *autolevelup*_
+│➵ _${usedPrefix}disable *autolevelup*_
+│➵ _${usedPrefix}enable *nsfw*_
+│➵ _${usedPrefix}disable *nsfw*_
+│➵ _${usedPrefix}enable *simi*_
+│➵ _${usedPrefix}disable *simi*_
+│➵ _${usedPrefix}enable *detect*_
+│➵ _${usedPrefix}disable *detect*_
+│➵ _${usedPrefix}enable *restrict*_
+│➵ _${usedPrefix}disable *restrict*_
+│➵ _${usedPrefix}enable *pconly*_
+│➵ _${usedPrefix}disable *pconly*_
+│➵ _${usedPrefix}enable *gconly*_
+│➵ _${usedPrefix}disable *gconly*_
+│➵ _${usedPrefix}enable *autoread*_
+│➵ _${usedPrefix}disable *autoread*_
+│➵ _${usedPrefix}enable *autoread*_
+│➵ _${usedPrefix}disable *modoadmin*_
+│➵ _${usedPrefix}enable *modoadmin*_
+│➵ _${usedPrefix}disable *modejadibot*_
+╚───𖥻 LISTA 𖥻───╝`, fkontak, m)
 throw false
 }
-conn.reply(m.chat, `🗂️ *OPCIÓN:* ${type} 
-💻 *ESTADO*: ${isEnable ? 'Activado ✅' : 'Desactivado ❌'}
-📡 *PARA*: ${isAll ? 'Este bot 🤖' : isUser ? '' : 'Este chat 💬'}`, fdocs,  m)
+conn.reply(m.chat, `╔───𖥻 ON-OFF 𖥻───╗
+│ *OPCIÓN:* ${type} 
+│ *ESTADO*: ${isEnable ? 'Activado' : 'Desactivado'}
+│ *PARA*: ${isAll ? 'Este bot' : isUser ? '' : 'Este chat'}
+╚───𖥻 ON-OFF 𖥻───╝`, fliveLoc, m)
 
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')

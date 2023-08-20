@@ -67,7 +67,7 @@ handler.all = async function (m) {
                    "groupJid": "6285736178354-1625305606@g.us",
                    "inviteCode": "null",
                    "groupName": "Curiosity", 
-                   "caption": wm, 
+                   "caption": wm2, 
                    'jpegThumbnail': fs.readFileSync('./storage/menus/Menu1.jpg')
                }
            }
@@ -145,7 +145,7 @@ handler.all = async function (m) {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat  ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "caption":"By: " + global.azami ,"h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./storage/menus/Menu1.jpg')}}
+            message: { "liveLocationMessage": { "caption":"By: " + global.wm2 ,"h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./storage/menus/Menu1.jpg')}}
            }
                
                   global.fliveLoc2 = {
@@ -153,11 +153,12 @@ handler.all = async function (m) {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "Azami","h": wm, 'jpegThumbnail': fs.readFileSync('./storage/menus/Menu1.jpg')}}
+            message: { "liveLocationMessage": { "title": "Azami","h": wm, 'jpegThumbnail': fs.readFileSync('./storage/menus/Menu1.jpg')}}		
            }
 
-	
-               
 
+
+	
 } 
 export default handler
+

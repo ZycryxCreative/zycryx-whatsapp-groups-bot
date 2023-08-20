@@ -2,7 +2,7 @@
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/GataNina-Li/GataBotLite-MD\ncd GataBotLite-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/Undefined17/CuriosityBot-MD\ncd CuriosityBot-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[35m
 ─█▀▀█ ───░█ ░█─░█ ░█▀▀▀█ ▀▀█▀▀ ░█▀▀▀ 　 ░█─── ─█▀▀█ 　 ░█▀▀█ ─█▀▀█ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█─── ░█─── ─█▀▀█ 
@@ -13,7 +13,7 @@ echo -e "\033[01;93m⏰ Preparando instalación...\n\033[0m"
 echo -e "\033[01;32m\033[01m🚀 Instalando dependencias!!\n\033[0m" 
 echo -e "\e[36m
 █ █▄░█ █▀ ▀█▀ ▄▀█ █░░ █░░   █▀▀ █ ▀█▀
-█ █░▀█ █ ░█░ █▀█ █▄▄ █▄▄   █▄█ █ ░█░\n\e[0m"
+█ █░▀█ █  ░█░ █▀█ █▄▄ █▄▄   █▄█ █ ░█░\n\e[0m"
 
 if command -v git >/dev/null 2>&1; then
 echo -e "\033[01;33m🟡 Git ya estaba instalado anteriormente.\033[0m"
@@ -136,11 +136,11 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/Azami19/CuriosityBot-MD1.git
+git clone https://github.com/AzamiJs/CuriosityBot-MD.git
 echo -e "\033[01;32m\033[01m✅ La clonación se ha descargado e instalado correctamente.\n\033[0m"
 
 echo -e "\033[01;32m\033[01m🟢 Cambiando al directorio del repositorio!!\n\033[0m" 
-cd CuriosityBot-MD1
+cd CuriosityBot-MD
 
 echo -e "\e[36m
 █░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▄█ ▄▀█ █▀█ █▄░█

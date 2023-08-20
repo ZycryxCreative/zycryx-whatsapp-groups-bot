@@ -90,13 +90,26 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://wa.me/59894808483"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### EDITOR & PROPIETARIO DEL BOT
-<a href="https://github.com/Undefined17"><img src="https://github.com/Undefined17.png" width="250" height="250" alt="Azami19"/></a>
+<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="Azami19"/></a>
 
 #### COLABORADORES 
-<a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png?size=100" width="100" height="100"></a> | [![reyEndymion](https://github.com/ReyEndymion.png?size=100)](https://github.com/ReyEndymion) 
----|---
-[Gata Dios](https://github.com/GataNina-Li)  | [reyEndymion](https://github.com/ReyEndymion)
-Colaboradora | Colaborador |
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>Mario</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
+    <td align="center"><a href="https://github.com/GataNina-Li"><img src="https://github.com/gatanina-li.png?size=100" width="100px;" alt=""/><br /><sub><b>Gata Dios</b></sub></a><br /><sub><i>Desarolladora Oficial</i></sub></td>
+    <td align="center"><a href="https://github.com/ReyEndymion"><img src="https://github.com/ReyEndymion.png?size=100" width="100px;" alt=""/><br /><sub><b>Endymion</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
+    <td align="center"><a href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png?size=100" width="100px;" alt=""/><br /><sub><b>HJ</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
+    <td align="center"><a href="https://github.com/Aleixon127271"><img src="https://github.com/Aleixon127271.png?size=100" width="100px;" alt=""/><br /><sub><b>Aleixon</b></sub></a><br /><sub><i>Moderador</i></sub></td>
+    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>Ender GB</b></sub></a><br /><sub><i>Moderador 2</i></sub></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ##### AGRADECIMIENTO ESPECIAL PARA
 <!--[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)

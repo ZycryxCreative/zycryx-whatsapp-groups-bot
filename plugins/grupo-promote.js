@@ -9,7 +9,6 @@ var number = text
 	
 if(!text && !m.quoted) return conn.reply(m.chat, `*⚠️ EJEMPLO DE USO:*\n\n*${usedPrefix}promote @tag*\n*${usedPrefix}promote responder a un mensaje*`, m)
 if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*⚠️ EL NÚMERO ES INCORRECTO, INTENTE OTRA DE NUEVO*`, m)
-	
 try {
 if(text) {
 var user = number + '@s.whatsapp.net'
@@ -17,14 +16,14 @@ var user = number + '@s.whatsapp.net'
 var user = m.quoted.sender
 } else if(m.mentionedJid) {
 var user = number + '@s.whatsapp.net'
-} 
+}
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-conn.reply(m.chat, `*⚠️ AHORA TIENE PODER EN EL GRUPO*`, m)
+conn.reply(m.chat, `*AHORA TIENE PODER EN EL GRUPO*`, m)
 	
 }}
-handler.help = ['*52xxx*','*@usuario*','*responder chat*'].map(v => 'promote ' + v)
+handler.help = ['*521xxx*','*@usuario*','*responder chat*'].map(v => 'promote ' + v)
 handler.tags = ['group']
 handler.command = /^(promote|daradmin|darpoder)$/i
 handler.group = true
