@@ -13,14 +13,14 @@ const __dirname = global.__dirname(import.meta.url)
 
 /*=========== OWNER ===========*/
 global.owner = [
- ['5217294888993', 'Creador 🎨', true],
- ['595975740803', 'Colaborado', true], 
- ['5214531106422'], ['51918299647'], ['593968585383'], ['593993684821'], ['5492266613038'], ['5492266466080'],['50258115623'], ['573106040746'], ['50576390682'], ['50557637439']]
+ ['51955715506', 'Julius Sauco', true],
+ ['51904264739', 'Amadeus Systems', true],
+ ['51904354571', 'Zycryx Chat Bot', true]]
 
-global.animxscans = ['56962237366']
-global.suittag = ['59894808483'] 
-global.mods = ['59894808483'] 
-global.prems = ['59894808483']
+global.animxscans = ['51955715506']
+global.suittag = ['51955715506']
+global.mods = ['51955715506']
+global.prems = ['51955715506']
 
 /*=========== IMÁGENES ===========*/
 global.raiz = './'
