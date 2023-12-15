@@ -40,7 +40,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf MysticSession
 > npm start`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/ZycryxCreative/zycryx-whatsapp-groups-bot.git`},
+    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
     'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     'fileLength': 99999999999999,
@@ -49,7 +49,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/ZycryxCreative/zycryx-whatsapp-groups-bot.git',
+        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
