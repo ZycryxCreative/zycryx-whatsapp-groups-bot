@@ -8,6 +8,8 @@ tmp/
 jadibts/
 pluginpilot/
 datasecret/
+.vscode/
+.idea/
 
 #| Files |#
 
